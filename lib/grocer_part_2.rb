@@ -3,10 +3,14 @@ require_relative './part_1_solution.rb'
 def apply_coupons(cart, coupons)
   counter = 0
   while counter < coupons.length
-
+    cart_item = find_item_by_name_in_collection(coupons[counter][:item], cart)
+    discount_item_name = "#{coupons[counter][:item]} W/COUPON"
+    items_with_coupon = find_item_by_name_in_collection(discount_item_name, cart)
+    if cart_item && cart_item[:count] >= coupons[counter][:num]
+      
+    end
     counter += 1
   end
-
 end
 #returns new_array = [{}]
 
