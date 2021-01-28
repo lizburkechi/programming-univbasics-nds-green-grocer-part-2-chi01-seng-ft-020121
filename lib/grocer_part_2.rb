@@ -39,7 +39,7 @@ def apply_clearance(cart)
   cart
 end
 # returns cart with 20% subtracted from items with :clearance value == true
-# round price to 2 decimal places using .round!! 
+# round price to 2 decimal places using .round!!
 
 def checkout(cart, coupons)
 
