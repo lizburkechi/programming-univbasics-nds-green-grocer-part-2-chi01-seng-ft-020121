@@ -1,10 +1,15 @@
 require_relative './part_1_solution.rb'
 
 def apply_coupons(cart, coupons)
-  # Consult README for inputs and outputs
-  #
-  # REMEMBER: This method **should** update cart
+  counter = 0
+  while counter < coupons.length
+    
+    counter += 1
+  end
+  
 end
+#returns new_array = [{}]
+
 
 def apply_clearance(cart)
   # Consult README for inputs and outputs
