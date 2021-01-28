@@ -42,6 +42,6 @@ end
 # round price to 2 decimal places using .round!!
 
 def checkout(cart, coupons)
-
+  consolidate_cart
 end
 # returns
