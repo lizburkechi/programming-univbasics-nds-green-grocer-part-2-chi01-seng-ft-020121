@@ -44,4 +44,4 @@ end
 def checkout(cart, coupons)
 
 end
-# returns 
+# returns
